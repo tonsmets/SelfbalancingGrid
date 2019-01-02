@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Virtual Charge Station</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="top-left" class="box"><h1 class="first_heading">Virtual Charging Station</h1>
+            <h3 class="first_heading">Controls</h3>
+            <input type="button" id="start_session" class="button-green" value="Start" />
+            <input type="button" id="stop_session" class="button-red" value="Stop" />
+        </div>
+        <div id="top-right" class="box">
+            <h1>Station Info</h1>
+            <span id="station-type"></span>
+            <span id="state"></span>
+            <h1>Tangle Data</h1>
+            <span id="funds-data"></span>
+            <span id="latest-data"></span>
+        </div>
+        <div id="bottom-left" class="box">
+            <canvas id="trafoChart" width="280" height="160"></canvas>
+        </div>
+        <div id="bottom-right" class="box">
+            <h1>Station Log</h1>
+            <span id="logs"></span>
+        </div>
+        <script>
+            // You can also require other files to run in this process
+            require('./renderer.js')
+        </script>
+    </body>
+</html>

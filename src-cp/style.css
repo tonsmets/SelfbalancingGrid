@@ -1,0 +1,147 @@
+:not(input):not(textarea),
+:not(input):not(textarea)::after,
+:not(input):not(textarea)::before {
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+body {
+	background-color: #000000;
+}
+
+* {
+	color: #ffffff;
+	font-family: 'Exo 2';
+}
+
+/* exo-2-200 - latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 200;
+  src: url('fonts/exo-2-v4-latin-200.eot'); /* IE9 Compat Modes */
+  src: local('Exo 2 Extra Light'), local('Exo2-ExtraLight'),
+       url('fonts/exo-2-v4-latin-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/exo-2-v4-latin-200.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/exo-2-v4-latin-200.woff') format('woff'), /* Modern Browsers */
+       url('fonts/exo-2-v4-latin-200.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/exo-2-v4-latin-200.svg#Exo2') format('svg'); /* Legacy iOS */
+}
+/* exo-2-300 - latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 300;
+  src: url('fonts/exo-2-v4-latin-300.eot'); /* IE9 Compat Modes */
+  src: local('Exo 2 Light'), local('Exo2-Light'),
+       url('fonts/exo-2-v4-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/exo-2-v4-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/exo-2-v4-latin-300.woff') format('woff'), /* Modern Browsers */
+       url('fonts/exo-2-v4-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/exo-2-v4-latin-300.svg#Exo2') format('svg'); /* Legacy iOS */
+}
+/* exo-2-regular - latin */
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/exo-2-v4-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Exo 2'), local('Exo2-Regular'),
+       url('fonts/exo-2-v4-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/exo-2-v4-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/exo-2-v4-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/exo-2-v4-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/exo-2-v4-latin-regular.svg#Exo2') format('svg'); /* Legacy iOS */
+}
+
+h1, h2, h3 {
+    padding: 0;
+    margin: 5px;
+}
+
+.first_heading {
+    margin: 5px 5px 5px 20px;
+}
+
+span {
+    display: block;
+    word-wrap: break-word;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.box {
+/*    -webkit-box-shadow:inset 0px 0px 0px 1px #ffffff;
+    -moz-box-shadow:inset 0px 0px 0px 1px #ffffff;
+    box-shadow:inset 0px 0px 0px 1px #ffffff;
+    word-wrap: break-word;*/
+}
+
+#top-left {
+	width: 400px;
+	height: 240px;
+	position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#top-right {
+	width: 400px;
+	height: 240px;
+	position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#bottom-left {
+	width: 400px;
+	height: 240px;
+	position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#bottom-right {
+	width: 400px;
+	height: 240px;
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+#logs {
+    height: 100px;
+    display: block;
+}
+
+#funds-data {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+input[type='button'] {
+	width: 350px;
+	height: 50px;
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    font-size: 14pt;
+    border: none;
+    display: block;
+    margin: 10px auto;
+}
+
+input[type='button']:disabled {
+  background-color: #333333;
+}
+
+.button-green {
+    background: rgb(28, 184, 65); /* this is a green */
+}
+
+.button-red {
+    background: rgb(202, 60, 60); /* this is a maroon */
+}

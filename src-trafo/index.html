@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ElaadNL Trafo</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="top-left" class="box"><h1 class="first_heading">ElaadNL Trafo</h1>
+            <h3 class="first_heading">Controls</h3>
+            <span id="trafo_threshold">60000</span>
+            <input type="range" min="10000" max="250000" value="60000" class="slider-color" id="threshold_slider">
+            <input type="button" id="update_value" class="button-blue" value="Update threshold" />
+        </div>
+        <div id="top-right" class="box">
+            <h1>Tangle Data</h1>
+            <span id="latest-data"></span>
+            <h1>Trafo Log</h1>
+            <span id="logs"></span>
+        </div>
+        <div id="bottom-left" class="box">
+            <canvas id="trafoChart" width="280" height="160"></canvas>
+        </div>
+        <div id="bottom-right" class="box">
+            <canvas id="trafoDetailChart" width="280" height="160"></canvas>
+        </div>
+        <script>
+            // You can also require other files to run in this process
+            require('./renderer.js')
+        </script>
+    </body>
+</html>

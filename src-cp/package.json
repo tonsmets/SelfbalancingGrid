@@ -1,0 +1,25 @@
+{
+  "name": "Smart Grid CP",
+  "version": "1.0.0",
+  "description": "Smart Grid Virtual Charging Station",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/",
+  "keywords": ["elaadnl", "iota", "smart", "grid"],
+  "author": "ElaadNL",
+  "license": "GNU GPLv3",
+  "devDependencies": {
+    "electron": "^2.0.0",
+    "electron-packager": "^12.1.1"
+  },
+  "dependencies": {
+    "chart.js": "^2.7.2",
+    "electron-remote": "^1.3.0",
+    "iota.lib.js": "latest",
+    "iota.lib.js.powsrvio": "0.0.1",
+    "request": "^2.88.0",
+    "zeromq": "^4.6.0"
+  }
+}
