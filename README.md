@@ -13,7 +13,7 @@ This means that we’ll start using the grid more, and probably reach the limits
 We built a demonstrator to show a solution where devices adjust their power usage based on messages from a transformer.
 
 ## Technicals
-[Read our blogpost](https://medium.com) to find out how it works and why we chose to do stuff a certain way. Below you will find the steps to run the code!
+[Read our blogpost](https://medium.com/@harmvandenbrink/self-balancing-grid-with-smart-transformers-and-smart-devices-721bb962c3ac) to find out how it works and why we chose to do stuff a certain way. Below you will find the steps to run the code!
 
 ### Raspberry Pi
 Run the [install_deps_pi.sh](./install_deps_pi.sh) script to install all dependencies. After that, copy the contents of the [src-trafo](./src-trafo) or [src-cp](./src-cp) to the `~/electron` folder on the Raspberry Pi. 
