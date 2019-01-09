@@ -21,4 +21,4 @@ Run the [install_deps_pi.sh](./install_deps_pi.sh) script to install all depende
 Make sure to create a config file based on our template! 
 
 ### Backend
-Cope the [src-api](./src-api) folder to a vps and run `npm install` to install all dependencies. Then simply run `node server.js` to get started!
+Copy the [src-api](./src-api) folder to a vps and run `npm install` to install all dependencies. Then simply run `node server.js` to get started!
